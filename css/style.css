@@ -1,3 +1,23 @@
+body {
+    height: 100vh;
+    display: flex;
+    background-image: url("../img/dark-03.jpg")
+}
+
+.white {
+    color: white
+}
+
+.container-login-form {
+    width: 50vw;
+}
+
 .log-in-but{
     width: 22vw;
+}
+
+.locked {
+    color: grey;
+    opacity: 0.5;
+    font-size: 2rem;
 }
